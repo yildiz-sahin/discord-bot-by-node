@@ -1,5 +1,4 @@
 const Discord = require("discord.js"); // imports the discord library
-const fs = require("fs"); // imports the file io library
 
 const client = new Discord.Client(); // creates a discord client
 
