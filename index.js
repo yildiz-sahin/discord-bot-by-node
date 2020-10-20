@@ -6,14 +6,19 @@ client.once("ready", () => { // prints "Ready!" to the console once the bot is o
 	console.log("Ready!");
 });
 
-
 function random(message) {
     const number = Math.random(); // generates a random number
     message.channel.send(number.toString()); // sends a message to the channel with the number
 }
 
+function greet(message) {
+	const greeting= "hello to you too :)";
+	message.channel.send(greeting);
+}
+
 let commands = new Map();
 commands.set("random", random);
+commands.set("hi" || "hello", greet);
 
 client.on("message", message => {
     if (message.content[0] === '?') {
