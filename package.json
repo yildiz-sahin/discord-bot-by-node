@@ -1,0 +1,23 @@
+{
+  "name": "discord_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yildiz-sahin/discord-bot-by-node.git"
+  },
+  "author": "Sahin Yildiz",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/yildiz-sahin/discord-bot-by-node/issues"
+  },
+  "homepage": "https://github.com/yildiz-sahin/discord-bot-by-node#readme"
+}

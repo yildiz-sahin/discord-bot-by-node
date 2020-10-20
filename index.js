@@ -42,4 +42,4 @@ client.on("message", message => {
 
 // ...
 
-client.login(token); // starts the bot up
+client.login(process.env.DISCORD_BOT_TOKEN); // starts the bot up
